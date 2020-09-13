@@ -13,6 +13,8 @@ else:
     # Get address from clipboard
     address = pyperclip.paste()
 
+webbrowser.open('https://www.google.com/maps/place/' + address)
+
 # TODO: opens web browser to the Google Maps page for the address.
 # TODO: Read the command line arguments from sys.argv
 # TODO: Read the clipboard contents
